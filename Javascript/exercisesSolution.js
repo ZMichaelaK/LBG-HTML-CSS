@@ -1,7 +1,3 @@
-
-
-// Exercise 1.
-
 for (let i = 1; i <= 10; i++) {
     console.log("hello");
 }
@@ -55,7 +51,6 @@ for (let iterator = 0; iterator < nums.length; iterator++) {
 
 console.log("Ex. 4");
 for (let index = nums.length - 1; index >= 0; index--) {
-    debugger;
     if (nums[index] % 3 === 0 && nums[index] % 5 === 0) {
         console.log("FizzBuzz");
     } else if (nums[index] % 3 === 0) {

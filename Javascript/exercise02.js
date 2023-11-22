@@ -24,3 +24,19 @@ console.log(5 + true);
 console.log(5 * "5");
 console.log(1 == true);
 console.log(1 === true);
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
+console.log("for of loop");
+for (let char of array) {
+    console.log("Char:", char);
+}
+
+const multipliesOf2 = [2,4,6,8,10];
+
+for (const number of multiplies of 2) {
+    console.log("Number", number);
+    
+}
